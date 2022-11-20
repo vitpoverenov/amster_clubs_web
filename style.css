@@ -1,0 +1,119 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-style: inherit;
+}
+
+html, 
+body {
+    height: 100%;
+    line-height: 1;
+    background-color: #333;
+    color: #fff;
+}
+
+.nav {
+  margin: 0 auto;
+  background: rgb(7, 6, 6);
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+ 
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.nav__link {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.nav__link_active:active {
+  color: white;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.page {
+    padding: 80px 0px 20px 0px;
+}
+
+.page__section {
+    
+    padding: 30px;
+    margin:  10px auto;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page__section_1 {
+    background-image: url(club2.jpeg);
+    background-repeat: no-repeat;
+}
+
+.page__section_2 {
+  background-image: url(club1.jpeg);
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  color: rgb(14, 13, 13);
+  font-weight: 600;
+}
+
+.page__section_3 {
+  background-image: url(club3.jpg);
+  background-size: contain;
+}
+
+.page__title {
+    position: relative;
+    font-size:40px;
+    margin: 0 0 20px 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.page__text {
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.footer {
+  height: 10vh;
+  width: 100%;
+  background-color: #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__link {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #fff;
+  color: black;
+}
+
+.footer__link_hover:hover {
+  background-color: black;
+  color: white;
+}
